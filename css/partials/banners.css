@@ -1,0 +1,24 @@
+.banners{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    .banner_center {
+        width: 66%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 15px;
+        justify-content: center;
+        align-items: center;
+        div{
+            img{
+                width: 322px;
+            height: 236px;
+            object-fit: cover;
+            border-radius: 12px ;
+            }
+
+        }
+    }
+}

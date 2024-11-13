@@ -1,0 +1,91 @@
+
+.box{
+    width: 397px;
+    height: 471px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    margin-top: 150px;
+   border: 2px solid lightgray;
+    img{
+      position: absolute;
+        width: 99px;
+        height: 69px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+  span{
+    position: absolute;
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-left: 220px;
+
+  }
+  h3{
+    position: absolute;
+    font-family: var(--fontfamily);
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 190px;
+    margin-left: 310px;
+  }
+  p{
+    position: absolute;
+    font-family: var(--fontfamily);
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 210px;
+    margin-left: 150px;
+  }
+  .kadr{
+    position: absolute;
+    width: 330px;
+    height: 42px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: crimson;
+    border-width: 2px;
+    margin-top: 250px;
+  }
+  .takmil{
+    position: absolute;
+    font-family: var(--fontfamily);
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-left: 190px;
+    color: crimson;
+
+  }
+  .button{
+    position: absolute;
+    width: 330px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: crimson;
+    margin-top: 350px;
+    span{
+      position: absolute;
+      font-family: var(--fontfamily);
+      font-size: 20px;
+      font-weight: normal;
+      margin-top: 5px;
+      margin-left: 150px;
+      color: whitesmoke;
+    }
+  }
+  .rull{
+    position: absolute;
+    display: flex !important;
+    justify-content: center;
+    font-family: var(--fontfamily);
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 410px;
+    margin-left: 20px;
+  }
+}

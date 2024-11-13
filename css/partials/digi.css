@@ -1,0 +1,149 @@
+
+.digiclub{
+    width: 100%;
+    height: 87px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+    .logo-digi{
+        width: 66%;
+        height: inherit;
+        background-color: #007295;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        .dg{
+            display: flex;
+            img{
+                display: flex;
+                justify-content: center;
+                width: 118px;
+            height: 33px;
+            margin-top: 30px;
+            margin-left: 1100px;
+            }
+        }
+       
+    }
+    .digi-option{
+        width: 275px ;
+        height: 66px;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin-left: 100px;
+        position: absolute;
+        margin-top: 23px;
+        border-radius: 10px;
+        .icon{
+            width: 16px;
+            height: 15px;
+            display: flex;
+            justify-content: center;
+           margin-top: 25px;
+           margin-right: 20px;
+           position: relative;
+           
+        }
+        p{
+            font-family: var(--fontfamily);
+            font-size: 15px;
+            font-weight: bold;
+            display: flex;
+            margin-left: 120px;
+            position: absolute;
+            margin-top: 20px;
+        }
+        .ax{
+            width: 168px;
+            height: 65px;
+            margin-top: 1px;
+            margin-right: 80px;
+            border-radius: 10px;
+            display: flex;
+           
+        }
+
+    }
+    .digi-option-1{
+        width: 275px ;
+        height: 66px;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin-right:460px;
+        position: absolute;
+        margin-top: 23px;
+        border-radius: 10px;
+        .icon{
+            width: 16px;
+            height: 15px;
+            display: flex;
+            justify-content: center;
+           margin-top: 25px;
+           margin-right: 20px;
+           position: relative;
+           
+        }
+        p{
+            font-family: var(--fontfamily);
+            font-size: 15px;
+            font-weight: bold;
+            display: flex;
+            margin-left: 110px;
+            position: absolute;
+            margin-top: 20px;
+        }
+        .ax{
+            width: 168px;
+            height: 65px;
+            margin-top: 1px;
+            margin-right: 80px;
+            border-radius: 10px;
+            display: flex;
+           
+        }
+
+    }
+    .digi-option-2{
+        width: 275px ;
+        height: 66px;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin-right:1019px;
+        position: absolute;
+        margin-top: 23px;
+        border-radius: 10px;
+        .icon{
+            width: 16px;
+            height: 15px;
+            display: flex;
+            justify-content: center;
+           margin-top: 25px;
+           margin-right: 20px;
+           position: relative;
+           
+        }
+        p{
+            font-family: var(--fontfamily);
+            font-size: 15px;
+            font-weight: bold;
+            display: flex;
+            margin-left: 110px;
+            position: absolute;
+            margin-top: 20px;
+        }
+        .ax{
+            width: 168px;
+            height: 65px;
+            margin-top: 1px;
+            margin-right: 80px;
+            border-radius: 10px;
+            display: flex;
+           
+        }
+
+    }
+}

@@ -1,0 +1,88 @@
+.best{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    .best-center{
+        width: 66%;
+        height: inherit;
+        border-radius: 15px;
+        border: 2px solid lightgray;
+        
+        .header-text{
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: row wrap;
+               column-gap: 5px;
+               margin-top: 5px;
+               position: absolute;
+               margin-right: 550px;
+
+            img{
+                width: 24px;
+                height: 24px;
+                
+                
+               
+            }
+            h1{
+                font-family: var(--fontfamily);
+                font-size: 20px;
+                font-weight: normal;
+            }
+        }
+        .swiper {
+            width: 100%;
+            height: 100%;
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+           margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+            row-gap: 15px;
+            .best-item{
+                width: 100%;
+                display:flex ;
+                flex-flow: row wrap;
+                align-items: center;
+                column-gap: 5px;
+            .best-image{
+                img{
+                    width: 86px;
+                    height: 86px;
+                    margin-right: 2px;
+                }
+            }
+            .best-number{
+                font-size: 35px;
+                font-family: var(--fontfamily);
+                color: aqua;
+                font-weight: bold;
+            }
+            .best-text{
+                font-size: 15px;
+                font-family: var(--fontfamily);
+                font-weight: normal;
+                color: #706e6e;
+                
+                
+            }
+            }
+          }
+      
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+    }
+}
